@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 4 Assignment</title>  
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<h1>Crystals Collector!</h1>
+
+
+<div id="notes">
+
+<p>You will be given a random number at the start of the game</p>
+
+<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+<p>The value of each crystal is hidden from you until you click on it.</p>
+
+<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+</div>
+
+
+<div id = "score"></div>
+
+<div class = "stats">
+   <p>Wins: <span id ="win"></span></p>  
+   <p>Losses: <span id = "loss"></span></p>
+</div>
+
+<div class = "crystal-image">
+	<img id = "red" src="assets/images/red.png" alt=""></img>
+	<img id = "blue" src="assets/images/blue.png" alt=""></img>
+	<img id = "yellow" src="assets/images/yellow.png" alt=""></img>
+  <img id = "green" src="assets/images/green.png" alt=""></img>
+</div>
+
+
+<div>
+<p id = "text">Your total score is: </p> 
+</div>
+
+<div id = "tally"></div>
+
+
+</body>
+</html>
